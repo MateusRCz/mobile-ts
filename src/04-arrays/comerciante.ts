@@ -1,5 +1,4 @@
 import promptSync from "prompt-sync";
-import { forEachChild } from "typescript";
 const prompt = promptSync();
 
 let n = Number(prompt("Serao digitados dados de quantos produtos? "));
