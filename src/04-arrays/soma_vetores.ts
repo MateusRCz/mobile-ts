@@ -3,9 +3,9 @@ const prompt = promptSync();
 
 const n = Number(prompt("Quantos valores vai ter cada vetor? "));
 
-const A: number [] = [];
-const B: number [] = [];
-const C: number [] = [];
+const A: number[] = [];
+const B: number[] = [];
+const C: number[] = [];
 
 console.log("Digite os valores do vetor A: ");
 
@@ -33,7 +33,7 @@ for(let i = 0; i < 1; i++){
 
 for(let i = 0; i < n; i++){
 
-    let soma = A[i] + B[i];
+    let soma = (A[i] ?? 0) + (B[i] ?? 0);
 
     C.push(soma);
     
